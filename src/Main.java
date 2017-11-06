@@ -1,13 +1,15 @@
+import chapter5.Cryptography;
+import chapter5.InterestingParty;
 
 public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		No2();
-		No3();
+		No5_1();
+		No5_2();
 		
 	}
-	public static void No2() {
+	public static void No5_1() {
 		InterestingParty no2 = new InterestingParty();
 		
 		String f[] = {"computer", "music","math"};
@@ -15,15 +17,15 @@ public class Main {
 		
 		int result = no2.bestInvitation(f, s);
 		
-		System.out.println("2ê²°ê³¼:"+result);
+		System.out.println("5_1¹ø¹®Á¦:"+result);
 	}
 	
-	public static void No3() {
+	public static void No5_2() {
 		Cryptography no3 = new Cryptography();
 		int s [] = {1,1,3};
 		long result = no3.encrypth(s);
 		
-		System.out.println("3ê²°ê³¼:"+result);
+		System.out.println("5_2¹ø¹®Á¦:"+result);
 	}
 
 }
